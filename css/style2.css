@@ -1,0 +1,866 @@
+:root {
+
+    /* Colors: */
+    --subscribe-color: #FFFFFF;
+    --p-newsletter: #534D4D;
+    --newsletter-color: #373434;
+    --p-quienes-somos: #373737;
+    --separatorsections: #0D1B2A;
+    --quienes-somos: #4b4646;
+    --orange-usp: #F38A4B;
+    
+    /* Font/text values */
+    font-family: 'Montserrat', sans-serif;
+    --unnamed-font-family-montserrat: Montserrat;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-800: 800px;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-22: 22px;
+    --unnamed-font-size-25: 25px;
+    --unnamed-font-size-45: 45px;
+    --unnamed-font-size-60: 60px;
+    --unnamed-font-size-68: 68px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-character-spacing-2-4: 2.4px;
+    --unnamed-line-spacing-28: 28px;
+    --unnamed-line-spacing-32: 32px;
+    --unnamed-line-spacing-45: 45px;
+    --unnamed-line-spacing-80: 80px;
+    --unnamed-line-spacing-95: 95px;
+    --unnamed-line-spacing-109: 109px;
+    }
+    
+    /* Character Styles */
+    .h6-newsletter {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-25);
+    line-height: var(--unnamed-line-spacing-45);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--p-newsletter);
+    }
+    .h2-newsletter {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-60);
+    line-height: var(--unnamed-line-spacing-109);
+    letter-spacing: var(--unnamed-character-spacing-2-4);
+    color: var(--newsletter-color);
+    }
+    p {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-18);
+    line-height: var(--unnamed-line-spacing-28);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--p-quienes-somos);
+    }
+    h3 {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-45);
+    line-height: var(--unnamed-line-spacing-80);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--quienes-somos);
+    }
+    h2 {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-800);
+    font-size: var(--unnamed-font-size-68);
+    line-height: var(--unnamed-line-spacing-95);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--subscribe-color);
+    }
+    h6 {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-22);
+    line-height: var(--unnamed-line-spacing-32);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--subscribe-color);
+    }
+    
+    body{
+    
+        background-color: #cfcfcf;
+    
+    }
+    
+    
+     /* USP + IMG */
+    .headerusp-container{
+    
+        display: flex;
+        flex-direction: row;
+        background-image: url(/img/BG.png);
+        background-repeat: no-repeat;
+        background-position: center -1rem;
+        background-size: cover;
+        height:60rem;
+        
+     
+    }
+    
+    .logo-nav{
+    
+        width: 10rem;
+        margin-left: 2rem;
+        padding-bottom: 5rem;
+        padding-top: 2rem;
+    
+    }
+    
+    .usp-message-logo{
+     
+        
+        margin-left: 20rem;
+        margin-bottom: 10rem;
+    
+    }
+    
+    
+    
+    .usp{
+    
+        /* Layout Properties */
+        width: 31rem;
+        height: 11rem;
+        /* UI Properties */
+        text-align: left;
+        font: normal 900 68px/95px Montserrat;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        color: #FFFFFF;
+    
+    }
+    
+    .usp-p{
+    
+        width: 35rem;
+        font: normal normal medium 22px/32px Montserrat;
+        font-size: 1.2rem;
+        text-align: left;
+        font-weight: 300;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        
+    
+    }
+    
+    .usp-img{
+    
+        margin-left: 10rem;
+        width: 100%;
+        max-width: 45rem;
+    
+    }
+    
+    .usp-button-subscribe{
+    
+       /* Layout Properties */
+        width: 20rem;
+        height: 5rem;
+        /* UI Properties */
+        background: var(--subscribe-color) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        outline: none;
+        opacity: 1;
+        border: none;
+        /* UI Properties */
+        font-size: 1.3rem;
+        color: #040841;
+        /* Cursor */
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    
+     /* QUIENES SOMOS */
+    
+     .quienes-somos{
+    
+       display: flex;
+       flex-direction: row-reverse;
+       margin-top: 1rem;
+       margin-bottom: 9rem;
+     }
+    
+     .quienes-somos-text{
+    
+        margin-right: 22rem;
+        margin-top: 5rem;
+     }
+    
+     .quienes-somos-header{
+    
+        /* Layout Properties */
+        width: 31rem;
+        height: 1rem;
+        margin-left: -9.5rem;
+        /* UI Properties */
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--quienes-somos);
+        text-align: center;
+        font: normal normal 600 40px Montserrat;
+        letter-spacing: 0px;
+        color: #5A5454;
+        opacity: 1;
+    
+     }
+    
+     .quienes-somos-p{
+    
+        /* Layout Properties */
+        width: 40rem;
+        height: 1rem;
+        /* UI Properties */
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--p-quienes-somos);
+        text-align: left;
+        font: normal normal normal 17px/1.7rem Montserrat;
+        letter-spacing: 0px;
+        opacity: 1;
+    
+     }
+    
+     .quienes-somos-img{
+    
+        /* Layout Properties */
+        margin-top: 6rem;
+        margin-right: 10rem;
+        margin-bottom: 10rem;
+        max-width: 100%;
+    
+     }
+    
+    
+    
+    
+      /* DESARROLLADORES */
+    
+    .desarrolladores{
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    
+    }
+    
+    .desarrolladores-text{
+    
+        margin-left: 19rem;
+        margin-right: 20rem;
+       
+    
+    }
+    
+    .desarrolladores-header{
+    
+        /* Layout Properties */
+        width: 0.3rem;
+        height: 0.8rem;
+        /* UI Properties */
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--quienes-somos);
+        text-align: right;
+        font: normal normal 600 40px Montserrat;
+        letter-spacing: 0px;
+        opacity: 1;
+    
+    }
+    
+    .desarrolladores-p{
+    
+        font-size: 17px;
+    
+    }
+    
+    .desarrolladores-img{
+    
+        margin-right: 16rem;
+        margin-top: 10rem;
+        
+    
+    }
+    
+    
+    
+    
+      /* MISION */
+    
+    .mision{
+    
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 15rem;
+        margin-bottom: 3rem;
+    
+    }
+    
+    .mision-text{
+    
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-top: -2rem;
+    
+    }
+    
+    .mision-header{
+    
+        /* Layout Properties */
+        width: 1rem;
+        height: 0.5rem;
+        /* UI Properties */
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--quienes-somos);
+        text-align: center;
+        font: normal normal 600 40px Montserrat;
+        letter-spacing: 0px;
+        opacity: 1;
+    
+    }
+    
+    .mision-p{
+    
+        font-size: 17px;
+    
+    }
+    
+    .mision-img{
+    
+        margin-left: 21rem;
+        margin-top: 4rem;
+    
+    }
+    
+      /* FAQ */
+    .faq{
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    
+    }
+    
+    .faq-text{
+    
+        /* Layout Properties */
+        width: 27rem;
+        height: 3rem;
+        margin-left: 30rem;
+        margin-top: 3rem;
+    
+        /* UI Properties */
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: center;
+        font: normal normal bold 35px Montserrat;
+        letter-spacing: 0px;
+        color: #3E3E3E;
+        opacity: 1;
+    
+    }
+    
+    .faq-button{
+    
+        /* Layout Properties */
+        width: 15rem;
+        height: 4rem;
+        margin-left: 10rem;
+        margin-top: 2rem;
+    
+        /* UI Properties */
+        background: var(--orange-usp) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--backgroundcolor);
+        background: #F38A4B 0% 0% no-repeat padding-box;
+        border: 1px solid #DCDCDC;
+        opacity: 1;
+        
+        /* Font */
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--subscribe-color);
+        text-align: center;
+        font: normal normal 600 20px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    
+        /* Cursor */
+        cursor: pointer;
+    }
+    
+    
+      /* NEWSLETTER */
+    .newsletter{
+    
+        
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    
+    }
+    
+    .newsletter-separator{
+    
+        margin-left: 10rem;
+    
+    }
+    
+    .newsletter-text{
+    
+        margin-left: 28em;
+        margin-right: 15rem;
+        margin-top: -2rem;
+        
+    
+    }
+    
+    .newsletter-header{
+    
+        /* Layout Properties */
+        width: 2rem;
+        height: 4rem;
+        /* UI Properties */
+        letter-spacing: var(--unnamed-character-spacing-2-4);
+        color: var(--newsletter-color);
+        text-align: center;
+        font: normal normal bold 40px Montserrat;
+        line-height: 10rem;
+        color: #373434;
+        opacity: 1;
+    
+    }
+    .newsletter-p{
+    
+        /* Layout Properties */
+        width: 35rem;
+        height: 11rem;
+        /* UI Properties */
+        color: var(--p-newsletter);
+        text-align: left;
+        color: #534D4D;
+        opacity: 1;
+        font-size: 16px;
+    
+    }
+    
+    .newsletter-button{
+    
+        width: 10rem;
+        height: 3rem;
+        margin-top: 8rem;
+        /* UI Properties */
+        background: #F88F5B 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border: none;
+        /* Font */
+        color: var(--subscribe-color);
+        text-align: center;
+        font: normal normal 500 18px Montserrat;
+        color: #FFFFFF;
+        opacity: 1;
+        
+        /* Font */
+        cursor: pointer;
+    
+    
+    }
+    
+    
+    /* MEDIA QUERIES RESPONSIVE */
+    
+    
+    @media (max-width:768px){
+    
+    
+    
+    
+        body{
+    
+            width: 100%;
+    
+        }
+    
+    
+        .usp-message-logo{
+         
+            
+            margin-left: 1rem;
+            margin-bottom: 10rem;
+        
+        }
+    
+        .logo-nav{
+    
+            width: 8rem;
+            padding-bottom: 1rem;
+            padding-top: 2rem;
+        
+        }
+     
+        .usp{
+        
+            /* Layout Properties */
+            width: 100%;
+            height: 11rem;
+            /* UI Properties */
+            text-align: left;
+            font: normal 900 68px/95px Montserrat;
+            font-size: 3rem;
+            line-height: 4.5rem;
+            color: #FFFFFF;
+        
+        }
+        
+        .usp-p{
+        
+            width: 23rem;
+            font: normal normal medium 22px/32px Montserrat;
+            font-size: 1.1rem;
+            text-align: left;
+            font-weight: 300;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            
+        
+        }
+        
+        .usp-img{
+        
+            margin-left: rem;
+            width: 0rem;
+            max-width: 45rem;
+            
+        
+        }
+        
+        .usp-button-subscribe{
+        
+           /* Layout Properties */
+            width: 20rem;
+            height: 5rem;
+            /* UI Properties */
+            background: var(--subscribe-color) 0% 0% no-repeat padding-box;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            outline: none;
+            opacity: 1;
+            border: none;
+            /* UI Properties */
+            font-size: 1.3rem;
+            color: #040841;
+            /* Cursor */
+            cursor: pointer;
+        
+        }
+        
+        
+        
+        
+         /* QUIENES SOMOS */
+        
+         .quienes-somos{
+            
+           width: 100%;
+           margin-bottom: 9rem;
+           margin-left: 23.5rem;
+         }
+        
+         .quienes-somos-text{
+        
+            margin-top: 33rem;
+            margin-left: 30rem;
+         }
+        
+         .quienes-somos-header{
+        
+            /* Layout Properties */
+            width: 30rem;
+            height: 1rem;
+            /* UI Properties */
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--quienes-somos);
+            text-align: center;
+            font: normal normal 600 40px Montserrat;
+            letter-spacing: 0px;
+            color: #5A5454;
+            opacity: 1;
+        
+         }
+        
+         .quienes-somos-p{
+        
+            /* Layout Properties */
+            width: 20rem;
+            height: 1rem;
+            /* UI Properties */
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--p-quienes-somos);
+            text-align: left;
+            font: normal normal normal 17px/1.7rem Montserrat;
+            letter-spacing: 0px;
+            opacity: 1;
+        
+         }
+        
+         .quienes-somos-img{
+        
+            /* Layout Properties */
+            margin-top: 6rem;
+            margin-right: -52rem;
+            margin-bottom: 10rem;
+            max-width: 100%;
+        
+         }
+        
+        
+        
+        
+          /* DESARROLLADORES */
+        
+        .desarrolladores{
+            
+            width: 100%;
+            margin-top: 30rem;
+            margin-bottom: 3rem;
+        
+        }
+        
+        .desarrolladores-text{
+        
+            margin-left: 3rem;
+            margin-top: 35rem;
+        
+        }
+        
+        .desarrolladores-header{
+        
+            /* Layout Properties */
+            width: 0.3rem;
+            height: 0.8rem;
+            /* UI Properties */
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--quienes-somos);
+            text-align: right;
+            font: normal normal 600 40px Montserrat;
+            letter-spacing: 0px;
+            opacity: 1;
+        
+        }
+        
+        .desarrolladores-p{
+            
+            width: 20rem;
+            font-size: 17px;
+        
+        }
+        
+        .desarrolladores-img{
+        
+            margin-left: -42.5rem;
+            margin-top: 10rem;
+            
+        
+        }
+        
+        
+        
+        
+          /* MISION */
+        
+        .mision{
+        
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+        
+        }
+        
+        .mision-text{
+            
+            margin-top: 27rem;
+            margin-right: 2rem;
+        
+        }
+        
+        .mision-header{
+        
+            /* Layout Properties */
+            width: 1rem;
+            height: 0.5rem;
+            /* UI Properties */
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--quienes-somos);
+            text-align: center;
+            font: normal normal 600 40px Montserrat;
+            letter-spacing: 0px;
+            opacity: 1;
+        
+        }
+        
+        .mision-p{
+            
+            width: 20rem;
+            font-size: 17px;
+        
+        }
+        
+        .mision-img{
+        
+            margin-right: -36.6rem;
+            margin-top: 1rem;
+        
+        }
+        
+          /* FAQ */
+        .faq{
+        
+            display: flex;
+            flex-direction: row;
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+        
+        }
+        
+        .faq-text{
+        
+            /* Layout Properties */
+            width: 10rem;
+            height: 3rem;
+            margin-left: 0.2rem;
+            margin-top: 0.1rem;
+        
+            /* UI Properties */
+            letter-spacing: var(--unnamed-character-spacing-0);
+            text-align: center;
+            font: normal normal bold 35px Montserrat;
+            font-size: 2rem;
+            letter-spacing: 0px;
+            color: #3E3E3E;
+            opacity: 1;
+        
+        }
+        
+        .faq-button{
+        
+            /* Layout Properties */
+            width: 10rem;
+            height: 4rem;
+            margin-left: 4rem;
+            margin-top: 1rem;
+        
+            /* UI Properties */
+            background: var(--orange-usp) 0% 0% no-repeat padding-box;
+            border: 1px solid var(--backgroundcolor);
+            background: #F38A4B 0% 0% no-repeat padding-box;
+            border: 1px solid #DCDCDC;
+            opacity: 1;
+            
+            /* Font */
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--subscribe-color);
+            text-align: center;
+            font: normal normal 600 15px Montserrat;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        
+            /* Cursor */
+            cursor: pointer;
+        }
+        
+        
+          /* NEWSLETTER */
+        .newsletter{
+        
+            
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+        
+        }
+        
+        .newsletter-separator{
+            
+            width: 20rem;
+            margin-left: 3rem;
+        
+        }
+        
+        .newsletter-text{
+        
+            margin-left: 3rem;
+            margin-top: -2rem;
+            
+        
+        }
+        
+        .newsletter-header{
+        
+            /* Layout Properties */
+            width: 2rem;
+            height: 4rem;
+            margin-left: 2rem;
+            /* UI Properties */
+            letter-spacing: var(--unnamed-character-spacing-2-4);
+            color: var(--newsletter-color);
+            text-align: center;
+            font: normal normal bold 40px Montserrat;
+            line-height: 10rem;
+            color: #373434;
+            opacity: 1;
+        
+        }
+        .newsletter-p{
+        
+            /* Layout Properties */
+            width: 20rem;
+            height: 11rem;
+            /* UI Properties */
+            color: var(--p-newsletter);
+            text-align: center;
+            color: #534D4D;
+            opacity: 1;
+            font-size: 16px;
+        
+        }
+        
+        .newsletter-button{
+        
+            width: 10rem;
+            height: 3rem;
+            margin-top: 23rem;
+            margin-left: -30rem;
+            /* UI Properties */
+            background: #F88F5B 0% 0% no-repeat padding-box;
+            opacity: 1;
+            border: none;
+            /* Font */
+            color: var(--subscribe-color);
+            text-align: center;
+            font: normal normal 500 18px Montserrat;
+            color: #FFFFFF;
+            opacity: 1;
+            
+            /* Font */
+            cursor: pointer;
+        
+        
+        }
+    
+    
+    
+    }
